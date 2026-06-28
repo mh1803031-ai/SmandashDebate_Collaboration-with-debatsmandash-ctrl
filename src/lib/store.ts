@@ -59,8 +59,17 @@ export interface Settings {
   sidePanelOffset: { x: number; y: number };
 }
 
+function getDefaultQuality(): Settings["quality"] {
+  if (typeof window === "undefined") return "ultra";
+  try {
+    return window.matchMedia?.("(pointer: coarse)").matches || window.innerWidth < 900 ? "low" : "ultra";
+  } catch {
+    return "ultra";
+  }
+}
+
 export const DEFAULT_SETTINGS: Settings = {
-  quality: typeof window !== "undefined" && (window.matchMedia?.("(pointer: coarse)").matches || window.innerWidth < 900) ? "low" : "ultra",
+  quality: getDefaultQuality(),
   fpsCap: 60,
   showFps: false,
   bloomIntensity: 0.7,
@@ -124,6 +133,15 @@ interface UniverseState {
   setEditorUnlockOpen: (v: boolean) => void;
 }
 
+function getEditorMode(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return sessionStorage.getItem("editor_unlocked") === "1";
+  } catch {
+    return false;
+  }
+}
+
 export const useUniverse = create<UniverseState>((set) => ({
   selectedId: null,
   hoveredId: null,
@@ -132,7 +150,7 @@ export const useUniverse = create<UniverseState>((set) => ({
   settingsOpen: false,
   assistantOpen: false,
   loaded: false,
-  editorMode: typeof window !== "undefined" && sessionStorage.getItem("editor_unlocked") === "1",
+  editorMode: getEditorMode(),
   editorUnlockOpen: false,
   select: (id) => set({ selectedId: id }),
   hover: (id) => set({ hoveredId: id }),
@@ -141,7 +159,7 @@ export const useUniverse = create<UniverseState>((set) => ({
   setSettingsOpen: (v) => set({ settingsOpen: v }),
   setAssistantOpen: (v) => set({ assistantOpen: v }),
   setLoaded: (v) => set({ loaded: v }),
-  setEditorMode: (v) => { if (typeof window !== "undefined") { if (v) sessionStorage.setItem("editor_unlocked","1"); else sessionStorage.removeItem("editor_unlocked"); } set({ editorMode: v }); },
+  setEditorMode: (v) => { try { if (typeof window !== "undefined") { if (v) sessionStorage.setItem("editor_unlocked","1"); else sessionStorage.removeItem("editor_unlocked"); } } catch { /* SSR / private browsing */ } set({ editorMode: v }); },
   setEditorUnlockOpen: (v) => set({ editorUnlockOpen: v }),
 }));
 

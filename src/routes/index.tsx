@@ -27,6 +27,7 @@ function Index() {
   const [loading, setLoading] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const mq = window.matchMedia("(pointer: coarse), (max-width: 900px)");
     const apply = () => setIsMobile(mq.matches);
     apply();
