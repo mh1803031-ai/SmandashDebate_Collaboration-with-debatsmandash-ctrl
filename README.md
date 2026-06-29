@@ -7,78 +7,48 @@
   [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
   [![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)]()
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+
+  <br />
+  <h3>👉 <a href="https://smandash-debate-collaboration-with.vercel.app/">KUNJUNGI WEBSITE KAMI SEKARANG (LIVE DEMO)</a> 👈</h3>
+  <br />
 </div>
 
-<br />
+---
 
-## 🔗 Akses Aplikasi (Deployment)
-Anda memiliki dua opsi untuk mengakses dan menggunakan aplikasi ini: **Akses Online** (sudah di-deploy) atau **Akses Lokal** (dijalankan di komputer Anda sendiri).
+## 📖 Tentang Aplikasi Ini
 
-### 1. Akses Online Tercepat (Cloud Deployment) ☁️
-Anda tidak perlu repot menginstal apa pun! Cukup klik tautan di bawah ini untuk langsung menjelajahi *Star Universe* secara live melalui server Vercel:
+Selamat datang di **Debate Coach Toolkit — Star Universe**! ✨
 
-👉 **[Buka Aplikasi secara Live di Vercel](https://smandash-debate-collaboration-with.vercel.app/)** 👈
-*(https://smandash-debate-collaboration-with.vercel.app/)*
+Aplikasi ini bukan sekadar wadah untuk membaca materi debat biasa. Ini adalah **pengalaman belajar revolusioner** yang membawa Anda menjelajahi dunia debat seolah-olah sedang mengarungi luasnya tata surya dan rasi bintang! 
 
-### 2. Akses Secara Lokal (Local Deployment) 💻
-Jika Anda ingin mengembangkan aplikasi ini atau menjalankannya tanpa internet di komputer Anda sendiri, ikuti langkah-langkah berikut:
+Dirancang khusus untuk membantu para debaters di segala tingkatan, aplikasi web ini menyajikan materi-materi debat yang kompleks menjadi sebuah mahakarya visual 3 dimensi yang interaktif, menyenangkan, dan memanjakan mata. Setiap topik dan argumen digambarkan sebagai sebuah bintang bersinar yang saling terhubung dalam satu *Knowledge Graph* kosmik. Tidak perlu lagi membaca berhalaman-halaman teks yang membosankan; cukup geser, putar, dan klik rasi bintang untuk mendapatkan pencerahan materi!
 
-Pastikan Anda telah menginstal **Node.js** (versi 20 atau lebih baru).
-
-1. **Clone & Masuk ke Folder**
-   ```bash
-   git clone https://github.com/mh1803031-ai/SmandashDebate_Collaboration-with-debatsmandash-ctrl.git
-   cd SmandashDebate_Collaboration-with-debatsmandash-ctrl
-   ```
-
-2. **Install Dependensi**
-   ```bash
-   npm install
-   ```
-
-3. **Jalankan Server Development Lokal**
-   ```bash
-   npm run dev
-   ```
-
-4. **Buka di Browser Anda**
-   Setelah server berjalan, klik tautan di bawah ini untuk mengaksesnya secara lokal:
-   
-   👉 **[http://localhost:5173/](http://localhost:5173/)** 👈
+### 🔭 Eksplorasi Pembelajaran Meliputi:
+- **Matter** (Substansi & Strategi Debat)
+- **Motion Bank** (Koleksi Mosi Debat yang Menantang)
+- **Roles** (Panduan Peran Pembicara)
+- **Kamus Debat** (Glosarium Cerdas)
 
 ---
 
-## 📖 Tentang Proyek Ini
-**Debate Coach Toolkit — Star Universe** adalah sebuah platform edukasi debat revolusioner yang memvisualisasikan kurikulum dan materi debat ke dalam bentuk **peta rasi bintang 3D interaktif** (*3D Star Map*). Alih-alih membaca dokumen linier biasa, debaters dapat menjelajahi materi seolah-olah sedang mengarungi alam semesta!
-
-Setiap materi direpresentasikan sebagai titik (bintang) yang saling terhubung dalam sebuah *Knowledge Graph* 3 dimensi yang imersif dan memanjakan mata.
-
-### 🔭 Komponen Pembelajaran:
-- **Matter** (Materi/Substansi Debat)
-- **Motion Bank** (Kumpulan Mosi Debat)
-- **Roles** (Peran Pembicara)
-- **Kamus Debat** (Glosarium Istilah)
+## ✨ Fitur-Fitur Magis
+- 🪐 **Eksplorasi 3D Tanpa Batas**: Putar, perbesar (*zoom*), dan melayang bebas di antara gugusan rasi bintang ilmu pengetahuan hanya dengan *mouse* Anda.
+- 🎵 **Atmosfer Kosmik (Ambient Audio)**: Suara latar yang menenangkan dan futuristik, dijamin meningkatkan fokus Anda saat menyerap materi baru.
+- 📱 **Panel Penjelasan Elegan**: Temukan detail materi pada panel *Glassmorphism* modern yang muncul secara mulus saat Anda berinteraksi dengan sebuah bintang.
+- 🔍 **Pencarian Kilat**: Lupa nama teori atau sedang mencari mosi spesifik? Gunakan fitur *Search Overlay* untuk menemukannya dalam hitungan detik.
+- 🤖 **Asisten AI Pribadi**: Bertanya tentang materi yang sulit? Chatbot AI kami siap membantu memberikan penjelasan yang Anda butuhkan kapan pun.
+- 🎨 **Estetika Premium**: Desain antarmuka *Dark Mode* mewah bernuansa kosmik yang memanjakan mata di perangkat apa pun.
 
 ---
 
-## ✨ Fitur Utama
-- 🪐 **Interaksi 3D Penuh**: Navigasi menggunakan mouse untuk memutar, memperbesar (*zoom*), dan menjelajah gugusan rasi bintang secara leluasa.
-- 🎵 **Audio Ambien Imersif**: Dilengkapi latar belakang audio kosmik yang mendalam untuk meningkatkan fokus belajar.
-- 📱 **Panel Responsif & Adaptif**: Penjelasan rinci setiap materi muncul melalui panel animasi modern (*Glassmorphism*).
-- 🔍 **Pencarian Kilat**: Temukan mosi atau teori debat dalam sekejap melalui *Search Overlay*.
-- 🤖 **Asisten AI Terintegrasi**: Chatbot cerdas yang siap membantu debaters memahami materi secara personal.
-- 🎨 **Desain Aurora Premium**: Tampilan visual kelas atas bernuansa gelap yang didukung oleh Tailwind CSS & Radix UI.
+## 🛠️ Dibangun Dengan Teknologi Web Terbaik
+Keajaiban 3D yang mulus ini diciptakan menggunakan kombinasi teknologi web (*Tech Stack*) mutakhir dunia:
+* **UI & Interaksi:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/) + [TanStack Router](https://tanstack.com/router)
+* **Grafis 3D (WebGL):** [Three.js](https://threejs.org/) + [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
+* **Gaya Visual & Animasi:** [Tailwind CSS v4](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/) + [Framer Motion](https://www.framer.com/motion/)
+* **Manajemen Data:** [Zustand](https://github.com/pmndrs/zustand) + [TanStack Query](https://tanstack.com/query)
 
----
-
-## 🛠️ Tech Stack & Bahasa Pemrograman
-Aplikasi ini dikembangkan menggunakan bahasa pemrograman **TypeScript** dan **JavaScript**, di atas ekosistem *web development* termodern:
-
-* **Frontend Framework:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/) + [TanStack Router](https://tanstack.com/router)
-* **Visual 3D & WebGL:** [Three.js](https://threejs.org/) + [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
-* **Animasi UI:** [Framer Motion](https://www.framer.com/motion/)
-* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/)
-* **State Management:** [Zustand](https://github.com/pmndrs/zustand) + [TanStack Query](https://tanstack.com/query)
+*(Proyek ini berjalan sepenuhnya di *Cloud* dan didistribusikan ke seluruh dunia melalui teknologi Edge Network dari **Vercel**)*.
 
 ---
 
